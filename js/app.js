@@ -148,13 +148,12 @@ $(document).ready(function() {
   // ==============================================================================================
 
   var instagramFeed = new Instafeed({
+    accessToken: '12044849005.1677ed0.c5b325b1978b472fa639cf549971c84b',
     get: 'user',
-    limit: 6,
+    userId: '12044849005',
     resolution: 'thumbnail',
-    userId: '441902919',
-    accessToken: '441902919.1677ed0.ab9040eff64249dcbfb19b6d48b4e909',
-    template:
-      '<div class="c-widget-instagram__item"><a href="{{link}}" title="{{caption}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}"></a></div>'
+    limit: 9,
+    template: '<div class="c-widget-instagram__item"><a href="{{link}}" title="{{caption}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}"></a></div>'
   });
 
   if ($('#instafeed').length) {

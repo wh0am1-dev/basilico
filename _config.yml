@@ -11,8 +11,8 @@ theme_version: 1.0.4
 title:              Basilico & Co.
 logo:               # Logo image URL
 description:        Recetas vegetarianas
-baseurl:            '/basilico' # The subpath of your site, e.g. /blog
-url:                'https://neko250.github.io/' # The base hostname & protocol for your site
+baseurl:            '' # The subpath of your site, e.g. /blog
+url:                'https://basilicoandco.com/' # The base hostname & protocol for your site
 twitter:            https://twitter.com/basilicoandco
 facebook:           https://www.facebook.com/basilicoandco
 instagram:          https://www.instagram.com/basilicoandco

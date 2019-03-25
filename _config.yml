@@ -1,0 +1,59 @@
+# Welcome to Nubia Jekyll Theme!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+theme_version: 1.0.4
+
+# Site settings
+title:              Basilico & Co.
+logo:               # Logo image URL
+description:        Recetas vegetarianas
+baseurl:            '/basilico' # The subpath of your site, e.g. /blog
+url:                'https://neko250.github.io/' # The base hostname & protocol for your site
+twitter:            https://twitter.com/basilicoandco
+facebook:           https://www.facebook.com/basilicoandco
+instagram:          https://www.instagram.com/basilicoandco
+
+markdown:  kramdown
+permalink: pretty
+paginate:  11
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jekyll/tagging
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+# Authors
+authors:
+  espe:
+    name:     Esperanza Aguilar
+    bio:      No lo se
+    gravatar: https://scontent-mad1-1.cdninstagram.com/vp/e025ef0e4ceba454c4efb5d39540d747/5D4F917D/t51.2885-19/s320x320/42991401_1499517696859375_3363475183980511232_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com
+    email:    esperanzabasilico@gmail.com
+    website:  http://neko250.github.io/basilico
+    github:   https://github.com/neko250/basilico
+    twitter:  https://twitter.com/basilicoandco
